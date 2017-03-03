@@ -1,2 +1,2 @@
-# light-theme
+# Light Store 
 Theme for Wordpress
