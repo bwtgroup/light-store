@@ -1,0 +1,570 @@
+# Copyright (C) 2017 Light Store v 1.0.0
+# This file is distributed under the same license as the Light Store v 1.0.0 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Light Store v 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: light-store/404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: light-store/404.php:21
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr ""
+
+#: light-store/comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: light-store/comments.php:36, light-store/comments.php:54
+msgid "Comment navigation"
+msgstr ""
+
+#: light-store/comments.php:37, light-store/comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: light-store/comments.php:38, light-store/comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: light-store/comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: light-store/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: light-store/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: light-store/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: light-store/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: light-store/search.php:15
+msgid "Search Results for: %s"
+msgstr ""
+
+#: light-store/inc/class-ls.php:78
+msgid "Primary Menu"
+msgstr ""
+
+#: light-store/inc/class-ls.php:79
+msgid "Secondary Menu"
+msgstr ""
+
+#: light-store/inc/class-ls.php:135
+msgid "Sidebar"
+msgstr ""
+
+#: light-store/inc/class-ls.php:141
+msgid "Below Header"
+msgstr ""
+
+#: light-store/inc/class-ls.php:143
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr ""
+
+#: light-store/inc/class-ls.php:152
+msgid "Footer %d"
+msgstr ""
+
+#: light-store/inc/class-ls.php:154
+msgid "Widgetized Footer Region %d."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:151, light-store/inc/ls-ajax.php:158, light-store/inc/ls-ajax.php:165, light-store/inc/ls-ajax.php:177, light-store/inc/ls-ajax.php:233, light-store/inc/ls-ajax.php:250
+msgid "Error"
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:158
+msgid "Username is required."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:165
+msgid "Password is required."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:177
+msgid "A user could not be found with this email address."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:201
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:241
+msgid "Anti-spam field was filled in."
+msgstr ""
+
+#: light-store/inc/ls-ajax.php:260
+msgid "User registered"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:65
+msgid "Edit"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:131
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:213
+msgid "Primary Navigation"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:214
+msgid "Menu"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:286, light-store/inc/woocommerce/ls-woocommerce-template-functions.php:125, light-store/inc/woocommerce/ls-woocommerce-template-functions.php:562
+msgid "View your shopping cart"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:308, light-store/inc/kirki/ls-kirki-cart.php:7
+msgid "Cart"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:371
+msgid "Search Products..."
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:377, light-store/inc/woocommerce/ls-woocommerce-template-functions.php:549
+msgid "Search"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:400, light-store/inc/woocommerce/ls-woocommerce-template-functions.php:576
+msgid "My Account"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:402, light-store/inc/ls-template-functions.php:402, light-store/inc/ls-template-functions.php:455, light-store/inc/ls-template-functions.php:510
+msgid "Logout"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:406
+msgid "Login / Register"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:462, light-store/inc/ls-template-functions.php:490, light-store/woocommerce/myaccount/form-login.php:26, light-store/woocommerce/myaccount/form-login.php:51
+msgid "Login"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:465
+msgid "Don&rsquo;t have an account?"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:466, light-store/inc/ls-template-functions.php:516, light-store/inc/ls-template-functions.php:562, light-store/woocommerce/myaccount/form-login.php:71, light-store/woocommerce/myaccount/form-login.php:114
+msgid "Register"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:473
+msgid "Login or email address"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:478, light-store/woocommerce/myaccount/form-login.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:481, light-store/inc/ls-template-functions.php:549, light-store/woocommerce/myaccount/form-login.php:41, light-store/woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:526
+msgid "First Name"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:533
+msgid "Last Name"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:540, light-store/woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:597
+msgid "Skip to navigation"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:598
+msgid "Skip to content"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:631, light-store/inc/ls-template-functions.php:689
+msgid "Pages:"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:684
+msgid "Continue reading %s"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:712
+msgid "Written by"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:718, light-store/inc/ls-template-functions.php:732
+msgid ", "
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:723
+msgid "Posted in"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:737
+msgid "Tagged"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:748
+msgid "Comments"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:749
+msgid "Leave a comment"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:749
+msgid "1 Comment"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:749
+msgid "% Comments"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:766
+msgctxt "Next post"
+msgid "Next"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:767
+msgctxt "Previous post"
+msgid "Previous"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:799
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:836
+msgid "Shop by Category"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:877
+msgid "New In"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:918
+msgid "We Recommend"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:959
+msgid "Fan Favorites"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:998
+msgid "On Sale"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:1035
+msgid "Best Sellers"
+msgstr ""
+
+#: light-store/inc/ls-template-functions.php:1086
+msgid "Featured Categories"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:34
+msgid "Reviews "
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:57
+msgid "There are no reviews yet."
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:70
+msgid "Add a review"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:71
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:74
+msgid "Name"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:77
+msgid "Submit"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:83
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:87
+msgid "Your Rating"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:88
+msgid "Rate&hellip;"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:89
+msgid "Perfect"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:90
+msgid "Good"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:91
+msgid "Average"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:92
+msgid "Not that bad"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:93
+msgid "Very Poor"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:97
+msgid "Your Review"
+msgstr ""
+
+#: light-store/woocommerce/single-product-reviews.php:106
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:17
+msgid "Cart Icon"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:31
+msgid "Mini Cart Layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:37, light-store/inc/kirki/ls-kirki-product.php:23
+msgid "Layout 1"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:38
+msgid "Popup layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:41, light-store/inc/kirki/ls-kirki-product.php:27
+msgid "Layout 2"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-cart.php:42
+msgid "Side bar layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-layout.php:6
+msgid "Layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-layout.php:16
+msgid "Content Layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:7
+msgid "Product Page"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:17
+msgid "Product Page Layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:24
+msgid "One column layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:28
+msgid "Two column with sticky summary"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:31
+msgid "Layout 3"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-product.php:32
+msgid "Two column layout"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-typography.php:6
+msgid "Typography"
+msgstr ""
+
+#: light-store/inc/kirki/ls-kirki-typography.php:16
+msgid "Typography Control"
+msgstr ""
+
+#: light-store/inc/widgets/widget_site_info.php:24
+msgid "Displays Site Info"
+msgstr ""
+
+#: light-store/inc/woocommerce/class-ls-woocommerce.php:51, light-store/inc/woocommerce/class-ls-woocommerce.php:64
+msgid "Add to cart"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:127
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:394
+msgid "Compare"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:466
+msgid "Featured Products"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:474
+msgid "On Sale Now"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:482
+msgid "New In Store"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:647
+msgid "Article number: "
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:648
+msgid "N/A"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:688
+msgid "Placeholder"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:733
+msgid "Close (Esc)"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:734
+msgid "Share"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:735
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:736
+msgid "Zoom in/out"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:748
+msgid "Previous"
+msgstr ""
+
+#: light-store/inc/woocommerce/ls-woocommerce-template-functions.php:750
+msgid "Next"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:37, light-store/woocommerce/cart/cart.php:69
+msgid "Product"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:38, light-store/woocommerce/cart/cart.php:87
+msgid "Price"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:39
+msgid "QTY"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:40
+msgid "Amount"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:82
+msgid "Available on backorder"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:93
+msgid "Qty"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:110
+msgid "Total"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:121
+msgid "Remove this item"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:146
+msgid "Subtotal: "
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:156
+msgid "Continue Shopping"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:160
+msgid "Order now"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:168
+msgid "Coupon:"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:168
+msgid "Coupon code"
+msgstr ""
+
+#: light-store/woocommerce/cart/cart.php:168
+msgid "Apply Coupon"
+msgstr ""
+
+#: light-store/woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: light-store/woocommerce/myaccount/form-login.php:36
+msgid "Username or email address"
+msgstr ""
+
+#: light-store/woocommerce/myaccount/form-login.php:53
+msgid "Remember me"
+msgstr ""
+
+#: light-store/woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr ""
+
+#: light-store/woocommerce/myaccount/form-login.php:107
+msgid "Anti-spam"
+msgstr ""

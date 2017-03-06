@@ -1,0 +1,333 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+section.products .products-row {
+  padding: 10px;
+  margin: 0 -55px 20px;
+}
+section.products .products-row .product {
+  padding: 0 55px 30px;
+}
+section.products .products-row .product .product-img {
+  height: auto;
+  min-height: 100px;
+}
+section.products .products-row .product .product-img img {
+  margin: 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+section.products .products-row .product .product-details .name {
+  margin-bottom: 10px;
+}
+section.products-filter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section.products-filter .filter {
+  display: inline-block;
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+section.section-title {
+  text-align: center;
+  padding: 30px 0;
+}
+section.section-title h2 {
+  font-size: 32px;
+  margin-top: 0;
+  color: #303030;
+  text-transform: initial;
+}
+section.section-title h4 {
+  color: #606060;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+}
+section.section-title p {
+  color: #606060;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+section.section-title a {
+  color: #606060;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: underline;
+}
+section.section-title a .fa {
+  margin-left: 5px;
+  font-size: 12px;
+}
+ul.products li.product {
+  position: relative;
+}
+ul.products li.product h3 {
+  font-size: 1.3em;
+  text-align: left;
+  margin: 10px auto;
+}
+ul.products li.product .product-title {
+  font-size: 15px;
+  color: inherit;
+}
+ul.products li.product .product-title:hover {
+  color: #f68236;
+}
+ul.products li.product img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 0;
+}
+ul.products li.product .product_thumbnails {
+  position: relative;
+}
+ul.products li.product .product-thumbnail-buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+ul.products li.product .hover-image {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+ul.products li.product .variation-image {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-color: #fff;
+}
+ul.products li.product .product-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+}
+ul.products li.product .product-bottom .product-wrap-swap {
+  overflow: hidden;
+  height: 31px;
+  line-height: 31px;
+}
+ul.products li.product .product-bottom .product-swap {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+ul.products li.product .product-bottom .price {
+  color: #303030;
+  text-align: left;
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+ul.products li.product .product-bottom .price ins {
+  color: #f68236;
+  font-weight: 600;
+}
+ul.products li.product .product-bottom .added_to_cart {
+  display: none;
+}
+ul.products li.product .product-bottom .button {
+  position: relative;
+  font-size: 14px;
+  padding: 0 20px;
+  height: 32px;
+  line-height: 32px;
+  transition: all 0.2s ease 0s;
+  display: inline-block;
+  min-width: 140px;
+  font-weight: 500;
+  text-transform: initial;
+  margin-bottom: 0;
+}
+ul.products li.product .product-bottom .button .add_to_cart_button_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+ul.products li.product .product-bottom .button svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateX(50%) translateY(-50%);
+  -moz-transform: translateX(50%) translateY(-50%);
+  -ms-transform: translateX(50%) translateY(-50%);
+  -o-transform: translateX(50%) translateY(-50%);
+  transform: translateX(50%) translateY(-50%);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+}
+ul.products li.product .product-bottom .button:focus {
+  color: #fff;
+}
+ul.products li.product .product-bottom .button.hide-text .add_to_cart_button_text {
+  color: transparent;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0s;
+  -moz-transition: -moz-transform 0s;
+  transition: transform 0s;
+}
+ul.products li.product .product-bottom .button:hover {
+  background-color: #717171;
+}
+ul.products li.product .product-bottom .button.added:after {
+  display: none;
+}
+ul.products li.product .product-bottom .button.added svg {
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: -webkit-transform 0s;
+  -moz-transition: -moz-transform 0s;
+  transition: transform 0s;
+}
+ul.products li.product:hover .product-swap {
+  transform: translateY(-32px);
+  -webkit-transform: translateY(-32px);
+}
+ul.products li.product:hover .hover-image {
+  opacity: 1;
+}
+ul.products li.product.variation-image-selected .variation-image {
+  opacity: 1;
+}
+div.woof_info_popup {
+  text-indent: -9999px;
+  border: none;
+  box-shadow: none;
+  white-space: nowrap;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+div.woof_info_popup:after {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 75px;
+  height: 75px;
+  background: url("../img/loader.svg") no-repeat center center;
+  background-size: cover;
+  animation: rotate 0.6s linear infinite;
+}
+.woocommerce-ordering {
+  display: none;
+}
+.woocommerce-result-count {
+  display: none;
+  text-align: center;
+  float: none;
+  color: #606060;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+.woof_search_is_going nav.woocommerce-breadcrumb {
+  display: block;
+}
+.woof_search_is_going nav.woocommerce-breadcrumb + h1.page-title {
+  display: block;
+}
+.product-swatches {
+  display: inline-block;
+}
+.product-swatches .product-swatch {
+  float: left;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border-radius: 50%;
+  margin: 8px 8px 8px 0;
+  background-color: #fff;
+  position: relative;
+}
+.product-swatches .product-swatch:last-child {
+  margin-right: 0;
+}
+.product-swatches .product-swatch.selected:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.product-swatches .product-swatch.has-image {
+  cursor: pointer;
+}
+.product-swatches .product-swatch.color-green {
+  background-color: #61a058;
+}
+.product-swatches .product-swatch.color-red {
+  background-color: #dd3333;
+}
+.product-swatches .product-swatch.color-blue {
+  background-color: #769ec1;
+}
+.product-swatches .product-swatch.color-black {
+  background-color: #000;
+}
+.product-swatches .product-swatch.color-yellow {
+  background-color: #eded55;
+}
+.product-swatches .product-swatch.color-brown {
+  background-color: #ba6d09;
+}
+.product-swatches:after {
+  content: '';
+  display: table;
+}

@@ -1,0 +1,31 @@
+@import "../variables.less";
+
+
+body .woocommerce .ywcps-wrapper{
+  overflow-x: hidden;
+  .ywcps-nav-next #default_next{
+    border: none;
+    height: 30px;
+    width: 40px;
+    background: url(../../img/arrow-black-large.svg)  center / cover no-repeat;
+  }
+  .ywcps-nav-prev #default_prev{
+    border: none;
+    height: 30px;
+    width: 40px;
+    transform: rotate(180deg);
+    background: url(../../img/arrow-black-large.svg)  center / cover no-repeat;
+  }
+  .owl-item li.product{
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  ul.products{
+    li.product{
+      .onsale{
+        margin-left: 15px;
+      }
+    }
+  }
+}

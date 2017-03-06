@@ -1,0 +1,440 @@
+@import "../variables.less";
+
+.yith-wcwl-add-to-wishlist{
+  margin-top: 0;
+  .feedback{
+    display: none;
+  }
+
+  .yith-wcwl-add-button{
+    position: relative;
+    .ajax-loading {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      transform: translate(-50%, -50%);
+      cursor: not-allowed;
+      opacity: 1;
+      display: block!important;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 0px!important;
+      height: 0px!important;
+      padding: 15px;
+      background: url("../@{main-loader}")  center  / 25px no-repeat;
+      animation: rotate 0.6s linear infinite;
+      margin: 0;
+    }
+  }
+}
+
+ul.products li.product{
+  .product-thumbnail-buttons{
+    .yith-wcwl-add-button{
+      font-size: 0;
+      line-height: 35px;
+      display: block;
+      width: 35px;
+      height: 35px;
+      -webkit-transition:  opacity .25s  ease-in-out, -webkit-transform .25s ease-in-out, visibility .25s ease-in-out;
+      -moz-transition: opacity .25s  ease-in-out, -moz-transform .25s ease-in-out, visibility .25s ease-in-out;
+      -o-transition:  opacity .25s  ease-in-out, -o-transform .25s ease-in-out, visibility .25s ease-in-out;
+      transition: opacity .25s  ease-in-out, transform .25s ease-in-out, visibility .25s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -o-transform: scale(0);
+      -ms-transform: scale(0);
+      -sand-transform: scale(0);
+      background: url(../../img/hearts.svg) center  / 25px no-repeat;
+      &.loading{
+        background: none;
+      }
+    }
+    .yith-wcwl-wishlistaddedbrowse,
+    .yith-wcwl-wishlistexistsbrowse{
+      font-size: 0;
+      line-height: 35px;
+      display: block;
+      width: 35px;
+      height: 35px;
+      -webkit-transition:  opacity .25s  ease-in-out, -webkit-transform .25s ease-in-out, visibility .25s ease-in-out;
+      -moz-transition: opacity .25s  ease-in-out, -moz-transform .25s ease-in-out, visibility .25s ease-in-out;
+      -o-transition:  opacity .25s  ease-in-out, -o-transform .25s ease-in-out, visibility .25s ease-in-out;
+      transition: opacity .25s  ease-in-out, transform .25s ease-in-out, visibility .25s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(0);
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -o-transform: scale(0);
+      -ms-transform: scale(0);
+      -sand-transform: scale(0);
+      background: url(../../img/hearts-filled.svg) center  / 25px no-repeat;
+    }
+  }
+  &:hover{
+    .product-thumbnail-buttons{
+      .yith-wcwl-add-button,
+      .yith-wcwl-wishlistaddedbrowse,
+      .yith-wcwl-wishlistexistsbrowse{
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        -sand-transform: scale(1);
+      }
+    }
+  }
+}
+
+#yith-wcwl-popup-message{
+  display: none!important;
+}
+
+.woocommerce{
+  .wishlist-title{
+    text-align: center;
+    display: block;
+    h2{
+      padding: 0;
+      margin: 20px auto 0;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 36px;
+      color: @black-light;
+    }
+  }
+
+  table.wishlist_table{
+    font-size: initial;
+    margin-top: 50px;
+    thead th{
+      border: none;
+    }
+    td{
+      &.product-add-to-cart a{
+        border-radius: 0;
+        display: inline-block!important;
+        padding: 0;
+        position: relative;
+        display: inline-block;
+        min-width: 140px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: initial;
+        margin-bottom: 0;
+        .add_to_cart_button_text{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          -webkit-transform: translateZ(0);
+          -moz-transform: translateZ(0);
+          -ms-transform: translateZ(0);
+          -o-transform: translateZ(0);
+          transform: translateZ(0);
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          -webkit-transition: -webkit-transform 0.3s;
+          -moz-transition: -moz-transform 0.3s;
+          transition: transform 0.3s;
+        }
+        svg{
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 100%;
+          -webkit-transform: translateX(50%) translateY(-50%);
+          -moz-transform: translateX(50%) translateY(-50%);
+          -ms-transform: translateX(50%) translateY(-50%);
+          -o-transform: translateX(50%) translateY(-50%);
+          transform: translateX(50%) translateY(-50%);
+          -webkit-transition: -webkit-transform 0.3s;
+          -moz-transition: -moz-transform 0.3s;
+          transition: transform 0.3s;
+        }
+        &:focus{
+          color: #fff;
+        }
+
+        &.hide-text{
+          .add_to_cart_button_text{
+            color: transparent;
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+            transform: translateX(-100%);
+            -webkit-transition: -webkit-transform 0s;
+            -moz-transition: -moz-transform 0s;
+            transition: transform 0s;
+          }
+        }
+
+        &.added{
+          &:after{
+            display: none;
+          }
+          svg{
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -o-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            -webkit-transition: -webkit-transform 0s;
+            -moz-transition: -moz-transform 0s;
+            transition: transform 0s;
+          }
+        }
+
+      }
+    }
+    .blockOverlay{
+      opacity: 1!important;
+      cursor: not-allowed!important;
+      display: block!important;
+      background: rgba(255, 255, 255, 0.5)!important;
+      position: relative;
+      &:before{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 75px;
+        height: 75px;
+        margin-left: -38px;
+        margin-top: -38px;
+        background: url("../@{main-loader}") no-repeat;
+        animation: rotate 0.6s linear infinite;
+        background-size: contain;
+        content: "";
+        animation: rotate 0.6s linear infinite;
+      }
+
+    }
+  }
+
+}
+.single-product div.product{
+  .yith-wcwl-add-to-wishlist{
+
+    .yith-wcwl-add-button{
+
+      &.loading{
+        .add_to_wishlist{
+          &.button{
+            opacity: 0.6;
+            .black-title{
+              background: @orange;
+              cursor: not-allowed;
+              font-size: 0;
+              vertical-align: top;
+              &:before{
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%;
+                background: url("../@{main-loader}") center  / 20px no-repeat!important;
+                animation: rotate 0.6s linear infinite;
+              }
+            }
+          }
+          .black-title{
+            cursor: not-allowed;
+            &:before{
+              background:  rgba(255, 255, 255, 0.5) url("../@{main-loader}") center  / cover no-repeat!important;
+              animation: rotate 0.6s linear infinite;
+            }
+          }
+        }
+
+      }
+
+      .add_to_wishlist{
+        &.button{
+          margin: 0 10px 10px 0;
+          padding: 0;
+          border-radius: 0;
+          height: 32px;
+          line-height: 32px;
+          .black-title{
+            color: #fff;
+            text-transform: capitalize;
+            min-width: 140px;
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0;
+            &:before{
+              background: none;
+            }
+          }
+        }
+      }
+
+      .black-title{
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+        display: inline-block;
+        color: #303030;
+        position: relative;
+        padding: 5px 5px 5px 30px;
+        font-size: 16px;
+        &:before{
+          position: absolute;
+          transform: translate(0, -50%);
+          top: 50%;
+          left: 0;
+          content: '';
+          display: block;
+          width: 25px;
+          height: 25px;
+          background: url(../../img/hearts.svg) center  / cover no-repeat;
+        }
+        &:hover{
+          color: @orange;
+          &:before{
+            background: url(../../img/hearts-orange.svg) center  / cover no-repeat;
+          }
+        }
+        .black-title-lable{
+          display: none;
+        }
+      }
+      .ajax-loading{
+        display: none!important;
+      }
+
+    }
+    .yith-wcwl-wishlistexistsbrowse,
+    .yith-wcwl-wishlistaddedbrowse{
+      .black-title{
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+        display: inline-block;
+        color: #303030;
+        position: relative;
+        padding: 5px 5px 5px 30px;
+        font-size: 16px;
+        &:before{
+          position: absolute;
+          transform: translate(0, -50%);
+          top: 50%;
+          left: 0;
+          content: '';
+          display: block;
+          width: 25px;
+          height: 25px;
+          background: url(../../img/hearts-filled.svg) center  / cover no-repeat;
+        }
+        &:hover{
+          color: @orange;
+        }
+        .black-title-lable{
+          display: none;
+        }
+      }
+    }
+
+  }
+}
+
+.wishlist-icon{
+  transition: 0s;
+  color: #303030;
+  position: relative;
+  opacity: 1;
+  display: block;
+  padding-left: 22px;
+  &:before{
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/hearts.svg) center  / cover no-repeat;
+  }
+}
+
+
+@media only screen and (max-width: 991px){
+  .header-default .navbar-block-right > li{
+    &.wishlist-info{
+      padding: 0 5px;
+    }
+  }
+
+  ul.products li.product .product-thumbnail-buttons{
+    .yith-wcwl-add-button,
+    .yith-wcwl-wishlistaddedbrowse,
+    .yith-wcwl-wishlistexistsbrowse{
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      -ms-transform: scale(1);
+      -sand-transform: scale(1);
+    }
+  }
+}
+@media only screen and (max-width: 767px){
+  .woocommerce .wishlist-title h2{
+    font-size: 24px;
+  }
+  .woocommerce table.wishlist_table{
+
+     tbody td {
+      padding: 10px 8px;
+    }
+    thead{
+      display: none;
+    }
+    tbody tr td {
+      &.product-remove{
+        padding: 10px 0;
+      }
+      &.product-name{
+        a{
+          margin-bottom: 0;
+        }
+      }
+    }
+    .product-stock-stauts,
+    .product-subtotal,
+    .product-price,
+    .product-quantity{
+      text-align: left;
+      line-height: 1.2;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .header-default .navbar-block-right > li{
+    &.wishlist-info{
+      padding: 0 6px;
+      .wishlist-icon{
+        padding-left: 18px;
+      }
+    }
+  }
+}

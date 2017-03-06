@@ -1,0 +1,191 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+#yith-quick-view-modal {
+  z-index: 100001;
+}
+#yith-quick-view-modal.open .yith-wcqv-main {
+  overflow-y: auto;
+}
+#yith-quick-view-close {
+  color: #333;
+  font-size: 0;
+  cursor: pointer;
+  padding-right: 36px;
+  opacity: 1;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  overflow: visible;
+  background: 0 0;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: 0;
+  z-index: 1046;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#yith-quick-view-close:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5px;
+  width: 30px;
+  height: 1px;
+  display: inline-block;
+  background-color: #000;
+  -webkit-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  right: 9px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -sand-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#yith-quick-view-close:after {
+  content: " ";
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  margin-top: -0.5px;
+  width: 30px;
+  height: 1px;
+  display: inline-block;
+  background-color: #000;
+  -webkit-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, width 0.2s ease-in-out;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -sand-transform: rotate(-45deg);
+}
+.yith-wcqv-wrapper .single-product div.product .images .woocommerce-main-image {
+  pointer-events: none;
+  height: auto;
+  line-height: normal;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.summary {
+  width: 58%;
+  padding: 35px 30px 25px;
+  text-align: left;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.summary form.cart .single_add_to_cart_button {
+  margin-left: 0;
+  margin-right: 0;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.summary .product-title {
+  font-size: 32px;
+  color: #303030;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.summary .product-title:hover {
+  color: #f68236;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images {
+  margin-bottom: 15px;
+  margin-right: 2%;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .onsale {
+  transform: translate(0, 0);
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .single-product-main-image {
+  margin-bottom: 30px;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .woocommerce-main-image img {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .thumbnails {
+  opacity: 1;
+  position: relative;
+  width: auto;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .thumbnails a.zoom {
+  width: 100%;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .thumbnails a.zoom img {
+  margin: auto;
+}
+.yith-wcqv-wrapper #yith-quick-view-content div.images .thumbnails:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+ul.products li.product .product-thumbnail-buttons .yith-wcqv-button {
+  display: block;
+  width: 35px;
+  height: 35px;
+  -webkit-transition: opacity 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out, visibility 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out, -moz-transform 0.25s ease-in-out, visibility 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out, -o-transform 0.25s ease-in-out, visibility 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out, visibility 0.25s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  -sand-transform: scale(0);
+  background: url(../../img/zoom-in.svg) center / 25px no-repeat !important;
+}
+ul.products li.product .product-thumbnail-buttons .yith-wcqv-button.loading {
+  background: none!important;
+}
+ul.products li.product .product-thumbnail-buttons .yith-wcqv-button.loading .blockOverlay {
+  background: url("../../img/loader.svg") center / 25px no-repeat !important;
+  animation: rotate 0.6s linear infinite;
+}
+ul.products li.product .product-thumbnail-buttons .yith-wcqv-button .blockOverlay {
+  opacity: 1!important;
+  cursor: not-allowed !important;
+  display: block!important;
+  background: none!important;
+}
+ul.products li.product .product-thumbnail-buttons .yith-wcqv-button .blockOverlay:before {
+  display: none;
+}
+ul.products li.product:hover .product-thumbnail-buttons .yith-wcqv-button {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  -sand-transform: scale(1);
+}
+/* TABLET */
+@media only screen and (max-width: 991px) {
+  ul.products li.product .product-thumbnail-buttons .yith-wcqv-button {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -sand-transform: scale(1);
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  .yith-wcqv-wrapper #yith-quick-view-content div.images {
+    width: 100%;
+    margin-right: 0;
+  }
+  .yith-wcqv-wrapper #yith-quick-view-content div.summary {
+    padding: 20px;
+    width: 100%;
+  }
+}

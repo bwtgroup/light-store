@@ -1,0 +1,37 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+.site-footer {
+  color: #303030;
+  background-color: transparent;
+  padding: 0 ;
+}
+.site-footer a:not(.button) {
+  color: #f68236;
+}
+.site-footer .footer-widgets {
+  padding: 0;
+  border-bottom: 0;
+}
+footer {
+  border-top: 1px solid #eaeaea;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+footer .footer-widgets .block {
+  height: 200px;
+  border-left: 1px solid #eaeaea;
+}
+footer .footer-widgets .block:first-child {
+  border-left: none;
+}
+footer .footer-widgets .block a:not(.button) {
+  color: #303030;
+}
+footer .footer-widgets .site-info a:not(.button) {
+  color: #f68236;
+}

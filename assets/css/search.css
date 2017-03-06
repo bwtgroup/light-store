@@ -1,0 +1,139 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+#site-search {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: url(../img/search.svg) no-repeat center center;
+  background-size: 20px 20px;
+}
+#search-area {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100001;
+  background: rgba(0, 0, 0, 0.6);
+}
+#search-area.is-active {
+  height: 100%;
+}
+#search-area.is-active .search-area-bar {
+  opacity: 1;
+}
+#search-area.is-active #search-area-background {
+  opacity: 0.63;
+}
+#search-area .search-area-bar {
+  margin-top: 85px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+#search-area #search-area-close {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/close-white.svg) no-repeat center center;
+  background-size: cover;
+}
+#search-area .woocommerce-product-search {
+  padding: 5em 0;
+  text-align: center;
+  width: auto;
+  margin-bottom: 50px;
+}
+#search-area .search-field {
+  font-size: 16px;
+  font-weight: 400;
+  border-color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 2px;
+  border-radius: 0;
+  color: #fff;
+  width: 60%;
+  background: none;
+  -webkit-appearance: none;
+}
+#search-area .search-field::-webkit-input-placeholder {
+  color: #f6f6f6!important;
+  opacity: 1 !important;
+}
+#search-area .search-field:-moz-placeholder {
+  /* Firefox 18- */
+  color: #f6f6f6!important;
+  opacity: 1 !important;
+}
+#search-area .search-field::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #f6f6f6!important;
+  opacity: 1 !important;
+}
+#search-area .search-field:-ms-input-placeholder {
+  color: #f6f6f6!important;
+  opacity: 1 !important;
+}
+#search-area .search-submit {
+  padding: 0 20px;
+  margin-left: 20px;
+}
+.woocommerce-info.no-products-found {
+  padding: 20px 20px 20px 60px;
+  margin: auto;
+  line-height: inherit;
+  border: none;
+  color: #303030;
+  background: url(../img/search-orange.svg) no-repeat center left;
+  background-size: 50px;
+}
+.ui-autocomplete {
+  margin: 0;
+}
+.ui-autocomplete .isp_section_header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 8px 0;
+}
+.ui-autocomplete .as_icon {
+  padding: 15px 0;
+}
+.ui-autocomplete .as_magento_product_desc,
+.ui-autocomplete .as_magento_price {
+  font-size: 14px;
+}
+.ui-autocomplete a#acp_footer_all {
+  font-size: 12px!important;
+}
+.widget_search form:before,
+.widget_product_search form:before {
+  width: 15px;
+  height: 15px;
+  left: 10px;
+  margin-top: -10px;
+  top: 50%;
+  content: '';
+  background: url(../img/search.svg) center / cover no-repeat;
+}
+@media screen and (max-width: 600px) {
+  .ui-autocomplete {
+    width: 90%!important;
+    left: 5%!important;
+  }
+}

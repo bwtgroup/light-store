@@ -1,0 +1,28 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+body .woocommerce .ywcps-wrapper {
+  overflow-x: hidden;
+}
+body .woocommerce .ywcps-wrapper .ywcps-nav-next #default_next {
+  border: none;
+  height: 30px;
+  width: 40px;
+  background: url(../../img/arrow-black-large.svg) center / cover no-repeat;
+}
+body .woocommerce .ywcps-wrapper .ywcps-nav-prev #default_prev {
+  border: none;
+  height: 30px;
+  width: 40px;
+  transform: rotate(180deg);
+  background: url(../../img/arrow-black-large.svg) center / cover no-repeat;
+}
+body .woocommerce .ywcps-wrapper .owl-item li.product {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+body .woocommerce .ywcps-wrapper ul.products li.product .onsale {
+  margin-left: 15px;
+}

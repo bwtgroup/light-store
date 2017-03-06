@@ -1,0 +1,271 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+.input-text,
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+textarea {
+  padding: 0 17px;
+  line-height: 40px;
+  vertical-align: top;
+  font-size: 14px;
+  background-color: #fff;
+  color: #606060;
+  outline: 0;
+  border: 1px solid #c2c2c2;
+  -webkit-appearance: none;
+  border-radius: 0;
+  font-weight: normal;
+  box-shadow: none;
+}
+.input-text:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+textarea:focus {
+  background-color: #fff;
+}
+.button,
+.button.alt,
+.button.added_to_cart,
+.button.wc-forward,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 34px;
+  background-color: #f68236;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  line-height: 42px;
+  vertical-align: top;
+}
+.button:hover,
+.button.alt:hover,
+.button.added_to_cart:hover,
+.button.wc-forward:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #717171;
+}
+.button:focus,
+.button.alt:focus,
+.button.added_to_cart:focus,
+.button.wc-forward:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+}
+.button.alt,
+.button.alt.alt,
+.button.added_to_cart.alt,
+.button.wc-forward.alt,
+button.alt,
+input[type="button"].alt,
+input[type="reset"].alt,
+input[type="submit"].alt {
+  background-color: #f68236;
+  color: #fff;
+  border: none;
+}
+.button.alt:hover,
+.button.alt.alt:hover,
+.button.added_to_cart.alt:hover,
+.button.wc-forward.alt:hover,
+button.alt:hover,
+input[type="button"].alt:hover,
+input[type="reset"].alt:hover,
+input[type="submit"].alt:hover {
+  background-color: #717171;
+}
+.form-row {
+  margin-bottom: 30px;
+}
+.form-row label {
+  margin-bottom: 10px;
+  color: #303030;
+  font-weight: 400;
+  text-transform: initial;
+  font-size: 14px;
+}
+.form-row.woocommerce-validated input.input-text {
+  box-shadow: none;
+  border-left: 2px solid #0f834d;
+}
+.form-row.woocommerce-invalid input.input-text {
+  box-shadow: none;
+  border-left: 2px solid #ed1c24;
+}
+.select2-container .select2-choice {
+  padding: 0 17px;
+  line-height: 42px;
+  font-size: 12px;
+  border: 1px solid #c2c2c2;
+  border-radius: 0;
+}
+.select2-drop input[type=text] {
+  padding: 0 10px!important;
+  line-height: 26px;
+}
+.select2-drop.select2-drop-active {
+  border: 1px solid #c2c2c2;
+  border-top: none;
+  border-radius: 0;
+}
+.post-form label {
+  font-weight: 400;
+}
+.post-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.post-form .text {
+  margin-bottom: 10px;
+}
+.post-form button {
+  min-width: 200px;
+}
+.message {
+  margin-bottom: 15px;
+}
+.message .error {
+  color: #ed1c24;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.message .error a:hover {
+  color: #f68236;
+}
+button.loader {
+  opacity: 0.6!important;
+  font-size: 0;
+}
+button.loader:before {
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+.primary-form {
+  margin: 50px auto;
+  max-width: 600px;
+}
+.primary-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.primary-form .form-group label {
+  margin-bottom: 10px;
+}
+.primary-form .form-group.first-group {
+  padding-right: 10px;
+}
+.primary-form .form-group.second-group {
+  padding-left: 10px;
+}
+.primary-form .text {
+  margin-bottom: 10px;
+}
+.primary-form input[type="submit"],
+.primary-form button {
+  min-width: 200px;
+  line-height: 50px;
+}
+.primary-form .form-control {
+  height: auto;
+}
+.primary-form label {
+  color: #606060;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.contact-form .form-group {
+  position: inherit;
+}
+.contact-form .form-submit {
+  position: relative;
+}
+.contact-form .form-submit .ajax-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-form .form-submit .ajax-loader:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+form.lost_reset_password,
+form.login,
+form.register {
+  margin: 50px auto;
+}
+form.lost_reset_password label,
+form.login label,
+form.register label {
+  text-transform: initial;
+  font-size: 14px;
+}
+form.lost_reset_password .form-control,
+form.login .form-control,
+form.register .form-control {
+  height: 42px;
+}
+form.lost_reset_password .eye,
+form.login .eye,
+form.register .eye {
+  font-size: 18px;
+}
+form.lost_reset_password .woocommerce-password-strength,
+form.login .woocommerce-password-strength,
+form.register .woocommerce-password-strength {
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+}
+form.lost_reset_password .woocommerce-password-strength:after,
+form.login .woocommerce-password-strength:after,
+form.register .woocommerce-password-strength:after {
+  display: none;
+}
+form.lost_reset_password .woocommerce-password-strength.short,
+form.login .woocommerce-password-strength.short,
+form.register .woocommerce-password-strength.short {
+  color: #ed1c24;
+}
+form.lost_reset_password .woocommerce-password-strength.strong,
+form.login .woocommerce-password-strength.strong,
+form.register .woocommerce-password-strength.strong {
+  display: none;
+}
+.woocommerce-FormRow {
+  position: relative;
+}
+.registration-form h2 {
+  text-align: center;
+}
+.validation-advice {
+  color: #ed1c24;
+}
+.validation-failed {
+  border-left: 2px solid #ed1c24 !important;
+}

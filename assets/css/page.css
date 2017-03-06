@@ -1,0 +1,219 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+html {
+  min-width: 320px;
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
+  /* way the hell off screen */
+  /* Padding containers */
+  /* Hover link effect*/
+}
+body .scrollbar-measure {
+  width: 100px;
+  height: 100px;
+  overflow: scroll;
+  position: absolute;
+  top: -9999px;
+}
+body.modal-open-important {
+  padding-right: 17px!important;
+  overflow: hidden!important;
+}
+body.modal-open-important .navbar-default {
+  padding-right: 17px!important;
+}
+body .container {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+body .container-fluid {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+body .hentry {
+  margin-bottom: 0;
+}
+body #page {
+  position: relative;
+  padding-bottom: 250px;
+  min-height: 100%;
+}
+body h1.page-title {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0;
+  color: #303030;
+  text-transform: uppercase;
+}
+body h1.entry-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #303030;
+  font-size: 36px;
+}
+body .home-page-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+body i {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+body .color-black {
+  color: #303030;
+}
+body input:disabled {
+  cursor: not-allowed;
+}
+body hr {
+  border-color: #e5e5e5;
+}
+body:focus {
+  outline: none;
+}
+body abbr[title] {
+  text-decoration: none;
+}
+body abbr.required {
+  cursor: default;
+  border: none;
+  color: #ed1c24;
+}
+body a {
+  font-weight: normal;
+  transition: .3s;
+  outline: 0;
+}
+body a:focus {
+  outline: none;
+}
+body a:active {
+  outline: none;
+}
+body .no-strong {
+  color: #303030;
+  font-weight: 300;
+}
+body #body-curtain {
+  position: fixed;
+  z-index: 10001;
+  background: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+body #body-curtain:before {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 75px;
+  height: 75px;
+  background: url("../img/loader.svg") no-repeat center center;
+  background-size: cover;
+  animation: rotate 0.6s linear infinite;
+}
+:focus {
+  outline: none;
+}
+.page-template-template-homepage .site-main {
+  padding-top: 0;
+}
+.home-featured-products .products {
+  margin: 60px auto 0;
+}
+.home-related-products h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.home-related-products .ywcps-wrapper {
+  margin: 60px auto 0;
+}
+.home-sign-up {
+  text-align: center;
+  padding: 60px 0;
+}
+.home-sign-up h2 {
+  margin-bottom: 6px;
+}
+.home-sign-up .validation-advice,
+.home-sign-up .mc4wp-error p {
+  color: #ed1c24;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.home-sign-up .validation-advice {
+  margin-top: 86px;
+}
+.home-sign-up .sign-up {
+  margin-top: 15px;
+}
+.home-sign-up .sign-up .validation-failed {
+  border-left: 1px solid #c2c2c2!important;
+}
+.home-sign-up .sign-up .input-group-btn {
+  vertical-align: top;
+}
+.home-sign-up .sign-up input[type="submit"] {
+  line-height: 56px;
+  padding: 0 34px;
+}
+.home-sign-up .sign-up input[type=email] {
+  clear: both;
+  font-size: 16px;
+  max-width: initial;
+  line-height: 54px;
+}
+.about-row {
+  margin: 66px auto;
+  color: #606060;
+}
+.about-row .first-col {
+  padding-right: 30px;
+}
+.about-row .second-col {
+  padding-left: 30px;
+}
+.about-row .caption {
+  padding: 0 20px 50px;
+}
+.about-row h3 {
+  font-weight: 600;
+  color: #303030;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.about-row p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.about-row .img {
+  text-align: center;
+  margin-bottom: 54px;
+}
+.about-row .img img {
+  display: inline-block;
+  border-radius: 0;
+  max-width: 100%;
+}

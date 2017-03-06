@@ -1,0 +1,71 @@
+@import "variables.less";
+
+.modal{
+  text-align: center;
+  padding: 0!important;
+  z-index: 10002;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  &.fade{
+    opacity: 1;
+    &.in{
+      .modal-dialog{
+        transform: translate(0, 0);
+      }
+    }
+    .modal-dialog{
+      transition: transform .2s ease-in;
+      transform: translate(0, -100%);
+      &.slideDown {
+        transition: transform .2s ease-out;
+        transform: translate(0, 100%);
+      }
+    }
+  }
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .modal-body{
+    padding: 60px 60px 50px;
+    h2{
+      font-weight: 600;
+      font-size: 36px;
+      color: #303030;
+      line-height: 36px;
+      margin-bottom: 30px;
+    }
+    a.modal-close{
+      top: 30px;
+      right: 30px;
+    }
+    .post-form{
+      margin: 30px auto 50px;
+    }
+  }
+  a.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    overflow: hidden;
+    opacity: .7;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../img/close.svg);
+  }
+}
+
+.modal-backdrop{
+  z-index: 10001;
+}

@@ -1,0 +1,58 @@
+/* Colors */
+/* Bootstrap variables */
+/* Buttons */
+/* Loaders */
+.entry-meta .label {
+  padding: 0 0 5px;
+  text-align: left;
+  color: #303030;
+  font-weight: normal;
+  display: block;
+}
+.hentry .entry-header {
+  border-bottom: 3px double #ddd;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+article.post {
+  border: 1px solid #eeeeee;
+  margin: 0 0 30px;
+  padding: 20px;
+}
+.pagination {
+  display: block;
+  margin: 20px 0;
+  border-radius: 0px;
+  border: 0;
+  clear: none;
+  padding: 0;
+}
+nav.post-navigation {
+  clear: both;
+}
+.pagination,
+.woocommerce-pagination {
+  float: none;
+}
+.pagination .page-numbers li .page-numbers,
+.woocommerce-pagination .page-numbers li .page-numbers {
+  font-size: 14px;
+  border-radius: 0!important;
+  border: 1px solid #303030;
+  color: #303030;
+  margin-right: 5px;
+  padding: 5px 11px;
+  font-weight: normal!important;
+}
+.pagination .page-numbers li .page-numbers.current,
+.woocommerce-pagination .page-numbers li .page-numbers.current {
+  color: #fff;
+  background-color: #303030;
+  border: 1px solid #303030;
+}
+.pagination .page-numbers li .page-numbers.next,
+.woocommerce-pagination .page-numbers li .page-numbers.next,
+.pagination .page-numbers li .page-numbers.prev,
+.woocommerce-pagination .page-numbers li .page-numbers.prev {
+  display: none;
+}

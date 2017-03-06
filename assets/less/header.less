@@ -1,0 +1,221 @@
+@import "variables.less";
+/* Default navbar */
+.header-default{
+  background-color: #fff;
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+  border-bottom: 1px solid #e5e5e5;
+  .site-branding{
+    margin-right: 20px;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+    float: left;
+    .custom-logo-link{
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+    }
+    .site-title-logo{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0;
+      a{
+        display: inline-block;
+        padding-bottom: 13px;
+        font-weight: 600;
+        font-size: 30px;
+      }
+
+    }
+  }
+  &.header-fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+  }
+  .container{
+    padding-top: 0;
+  }
+
+  .navbar-block-right{
+    float: right;
+    position: relative;
+    z-index: 1;
+    margin: 0 0 0 10px;
+    > li {
+      list-style: none;
+      float: left;
+      padding: 0 10px;
+      &.account{
+        position: relative;
+        z-index: 3;
+        a{
+          cursor: pointer;
+          transition: 0s;
+          color: #303030;
+          display: inline-block;
+          &.orange{
+            color: @orange;
+          }
+        }
+        .account-name{
+          max-width: 100px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          vertical-align: middle;
+        }
+      }
+      &.search-box-wrapper {
+        width: 42px;
+        position: relative;
+        z-index: 3;
+        padding: 0;
+        #site-search{
+
+        }
+      }
+      &.cart{
+        padding: 0;
+        .header-cart{
+          padding: 0;
+          a.cart-link{
+            transition: 0s;
+            color: #303030;
+            position: relative;
+            opacity: 1;
+            display: block;
+            padding: 0 10px;
+            .icon-cart{
+              transition: 0s;
+              margin-right: 0px;
+            }
+          }
+          .cart-contents{
+            padding: 0;
+          }
+        }
+      }
+
+    }
+  }
+
+  #site-navigation  button.menu-toggle,
+  #site-navigation ul.menu > li > a,
+  .site-branding,
+  .navbar-block-right > li,
+  #mega-menu-wrap-primary .mega-menu-toggle{
+    -webkit-transition: height .3s, line-height .3s;
+    transition: height 0.3s, line-height 0.3s;
+    line-height: 84px;
+    height: 84px;
+  }
+}
+
+.main-navigation,
+.secondary-navigation{
+  float: left;
+  clear: none;
+  display: inline-block;
+  width: auto;
+  padding-left: 5px;
+
+  div.menu:last-child{
+    display: none;
+    transition: top 0.3s;
+    position: fixed;
+    width: 100vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 0 20px;
+    top: 84px;
+    left: 0;
+    background: #fff;
+    z-index: 10;
+    border-bottom: 1px solid #e5e5e5;
+    ul li a{
+      color: @black-light;
+      padding: 5px 10px;
+      &:before{
+        display: none;
+      }
+      &:hover{
+        color: @orange;
+      }
+    }
+
+  }
+
+  div.menu>ul:not(.nav-menu){
+    //transition: all,ease,.3s;
+    max-width: 767px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  ul.menu{
+    transition: 0s;
+    li a{
+      padding: 0 10px;
+      color: @black-light;
+      font-size: 13px;
+    }
+
+    ul.sub-menu{
+      padding: 0px 0px 0px 0px;
+      background-color: #f6f6f6;
+    }
+  }
+  button.menu-toggle{
+    padding: 0;
+    background: transparent url(../img/menu.svg) center / contain no-repeat;
+    width: 30px;
+    min-width: 1px;
+    border: none;
+    &:hover{
+      background-color: transparent;
+    }
+  }
+}
+
+.menu-affix-top{
+  .main-navigation div.menu:last-child,
+  .secondary-navigation div.menu:last-child{
+    top: 64px;
+  }
+  #site-navigation ul.menu > li > a,
+  #site-navigation  button.menu-toggle,
+  .site-branding,
+  .navbar-block-right > li,
+  #mega-menu-wrap-primary .mega-menu-toggle{
+    line-height: 64px;
+    height: 64px;
+  }
+}
+body.admin-bar{
+  .main-navigation,
+  .secondary-navigation{
+    div.menu:last-child{
+      top: 116px;
+    }
+  }
+  &.menu-affix-top{
+    .main-navigation,
+    .secondary-navigation{
+      div.menu:last-child{
+        top: 96px;
+      }
+    }
+  }
+}
+#header-shim{
+  height: 88px;
+}
+.mobile-cart-count{
+  display: none;
+}
+
+

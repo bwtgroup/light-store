@@ -1,0 +1,40 @@
+@import "variables.less";
+
+.site-footer{
+  color: @black-light;
+  background-color: transparent;
+  padding: 0 ;
+  a:not(.button){
+    color: @orange;
+  }
+
+  .footer-widgets{
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+footer{
+  border-top: 1px solid #eaeaea;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .footer-widgets{
+    .block{
+      height: 200px;
+      border-left: 1px solid #eaeaea;
+      &:first-child{
+        border-left: none;
+      }
+      a:not(.button){
+        color: @black-light;
+      }
+    }
+    .site-info{
+      a:not(.button){
+        color: @orange;
+      }
+    }
+  }
+}
